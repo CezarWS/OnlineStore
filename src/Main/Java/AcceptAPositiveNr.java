@@ -9,7 +9,7 @@ public class AcceptAPositiveNr {
     public static void main(String[] args) {
         int nr = -1;
 
-        boolean isValid =(nr > 0);
+        boolean isValid =(nr >= 0);
 
         boolean isEven = ((nr % 2) == 0);
 

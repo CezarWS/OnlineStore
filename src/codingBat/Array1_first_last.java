@@ -12,12 +12,12 @@ firstLast6([13, 6, 1, 2, 3]) → false
  */
     public static void main(String[] args){
 
-        System.out.println("Are numbers 0 or 6 on the first position ?  " + firstLast6(new int[] {1,2,6}));
+        System.out.println("Are numbers 0 or 6 on the first or last position ?  " + firstLast6(new int[] {1,2,6}));
         }
 
     static boolean firstLast6(int[] nums) {
         int firstNr = nums[0];
-        int lastNr = nums.length - 1;
+        int lastNr = nums[nums.length - 1];
 
         for (int number : nums) {
             if ((firstNr == 0) || (lastNr == 6)){
