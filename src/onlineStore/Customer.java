@@ -31,13 +31,6 @@ public Customer(String firstName, String lastName, int cnp, String address){
         this.lastName = lastName;
     }
 
-    public int getCnp() {
-        return cnp;
-    }
-
-    public void setCnp(int cnp) {
-        this.cnp = cnp;
-    }
 
     public String getAddress() {
         return address;

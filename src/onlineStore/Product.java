@@ -1,6 +1,9 @@
 package onlineStore;
 
-public class Product {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Product{
     //  id,name ,type (ex: clothing, electronics etc),price, color
     private int id;
     private String name;
@@ -9,12 +12,18 @@ public class Product {
     private String color;
 
     public Product(int id, String name, String type, double price, String color) {
+
         this.name = name;
         this.type = type;
         this.price = price;
         this.color = color;
 
     }
+
+//    public Product() {
+//
+//    }
+
 
 
     public int getId() {
